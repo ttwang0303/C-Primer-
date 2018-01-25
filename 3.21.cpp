@@ -1,3 +1,5 @@
+/*功能:将vector对象中所包含的元素使用迭代器输出*/
+/*迭代器类型的确定:因为只要求输出vector对象的内容而无须对其进行更改,所以使用的迭代器应该是cbegin和cend,而非begin和end  */
 #include<iostream>
 #include<vector>
 #include<string>
